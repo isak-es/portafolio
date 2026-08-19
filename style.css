@@ -1,0 +1,111 @@
+body {
+  background-image: url("./imagenes/imagen2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #E0E0E0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1A237E;
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Título principal */
+h1 {
+  color: #bfdd15;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  background: linear-gradient(135deg, #1a1a1a, #8dbba4);
+  padding: 15px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 3px 8px rgba(96, 163, 19, 0.4);
+}
+
+/* Sobre mí */
+#sobreMi {
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffeb3b;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+#infoExtra {
+  color: #ffffff !important; /* fuerza el color blanco */
+  background: linear-gradient(135deg, #1a1a1a, #208151);
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  transition: opacity 0.5s ease;
+}
+
+
+
+
+/* Contacto */
+#contacto {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffeb3b;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+#infoContacto {
+  background: linear-gradient(135deg, #1a1a1a, #208151); /* mismo degradado del título */
+  width: 60%; /* hace el recuadro más angosto, puedes ajustar el porcentaje */
+  margin: 0 auto; /* centra el recuadro horizontalmente */
+  padding: 10px; /* espacio interno más compacto */
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: opacity 0.5s ease;
+  font-size: 1.1rem;
+  color: #ffffff; /* texto blanco para contraste */
+}
+
+
+/* Portafolio */
+#portafolioLinks li {
+  margin: 8px 0;
+}
+
+#portafolioLinks a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#portafolioLinks a:hover {
+  color: #ffeb3b;
+}
+/* Enlace "Sobre mí" */
+#sobreMi,
+#sobreMi:link,
+#sobreMi:visited,
+#sobreMi:hover,
+#sobreMi:active {
+  color: #ffeb3b !important; /* amarillo brillante */
+  text-decoration: none;     /* quita el subrayado */
+}
+#portafolioLinks i {
+  color: #ffffff !important;
+}
+.titulo-seccion {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffeb3b;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+.titulo-seccion#portafolioTitulo {
+  font-size: 1.5rem; /* tamaño reducido */
+}
