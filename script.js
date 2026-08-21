@@ -1,3 +1,4 @@
+
 // --- BLOQUE SOBRE MÍ ---
 const sobreMi = document.getElementById('sobreMi');
 const infoExtra = document.getElementById('infoExtra');
