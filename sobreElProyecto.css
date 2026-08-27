@@ -1,0 +1,15 @@
+body {
+    background-color: #96b7c7;
+}
+.boton-volver {
+    color: #0d6efd;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.boton-volver:hover {
+    color: #084298;
+    text-decoration: underline;
+}
