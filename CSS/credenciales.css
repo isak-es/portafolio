@@ -1,0 +1,52 @@
+body {
+margin: 0; /* elimina márgenes por defecto */
+  padding: 0;
+  height: 100vh; /* asegura que cubra toda la ventana */
+  background-image: url("../imagenes/imagenFondoCredenciales.avif"); /* tu imagen */
+  background-size: cover; /* ajusta la imagen para cubrir todo */
+  background-position: center; /* centra la imagen */
+  background-repeat: no-repeat; /* evita que se repita */
+}
+
+
+.titulo{
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:40px;
+    font-weight:bold;
+    color: #eef3f3; 
+}
+
+.carousel-item{
+    text-align:center;
+    padding:30px;
+}
+
+.cert-card{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+
+.cert-card img{
+    width:180px;
+    height:180px;
+    object-fit:contain;
+    margin-bottom:20px;
+}
+.container-credenciales {
+  background-color: #f8f9fa; /* fondo claro */
+  border-radius: 25px;       /* más redondeado */
+  padding: 20px;                      
+  box-shadow: 0 4px 15px rgba(0,0,0,0.8);     /* sombra para relieve */
+  backdrop-filter: blur(12px) 
+
+}
+.container {
+  border-radius: 20%;
+  max-width: 800px; /* achica el ancho */
+  margin: 0 auto;   /* centra el contenedor */
+}

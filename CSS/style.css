@@ -1,0 +1,307 @@
+/* =========================
+   CONFIGURACIÓN GENERAL
+========================= */
+
+body {
+    background-image: url("../imagenes/imagen2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #E0E0E0;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    background-color: #1A237E;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand,
+.nav-link {
+    font-weight: bold;
+}
+
+/* =========================
+   TÍTULO PRINCIPAL
+========================= */
+
+h1 {
+    color: #bfdd15;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(135deg, #1a1a1a, #8dbba4);
+    padding: 15px;
+    border-radius: 12px;
+    display: inline-block;
+    box-shadow: 0 3px 8px rgba(96, 163, 19, 0.4);
+}
+
+/* =========================
+   TÍTULOS DE SECCIÓN
+========================= */
+
+.titulo-seccion {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffeb3b;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* =========================
+   SOBRE MÍ
+========================= */
+
+#sobreMi {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffeb3b;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#infoExtra {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.5s ease;
+}
+
+/* =========================
+   CONTACTO
+========================= */
+
+#contacto {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffeb3b;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#infoContacto {
+    background: rgba(0, 0, 0, 0.8);
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    color: white;
+    transition: opacity 0.5s ease;
+}
+
+#infoContacto a {
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+#infoContacto a.telefono {
+    color: #25D366;
+    font-weight: bold;
+}
+
+#infoContacto a.correo {
+    color: #2196f3;
+    font-weight: bold;
+}
+
+/* =========================
+   TARJETAS GENERALES
+========================= */
+
+.proyecto-card {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-5px);
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.proyecto-card h4 {
+    color: #ffeb3b;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.proyecto-card p {
+    color: white;
+    margin-top: 10px;
+}
+
+.proyecto-card a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffeb3b;
+}
+
+.proyecto-card a:hover {
+    color: white;
+}
+
+.proyecto-card i {
+    color: #ffeb3b;
+}
+
+/* =========================
+   PORTAFOLIO Y CASO
+========================= */
+
+#portafolioLinks,
+#casoContenido {
+    transition: opacity 0.5s ease;
+}
+
+#casoContenido h3 {
+    color: #bfdd15;
+    margin-bottom: 20px;
+}
+
+#casoContenido h4 {
+    color: #ffeb3b;
+}
+
+#casoContenido p,
+#casoContenido li {
+    color: white;
+}
+
+/* =========================
+   HABILIDADES TÉCNICAS
+========================= */
+
+#habilidadesTitulo {
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+}
+
+#habilidadesTitulo:hover {
+    color: white;
+    transform: scale(1.02);
+}
+
+#habilidadesContenido {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#habilidadesContenido .proyecto-card {
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#habilidadesContenido h4 {
+    font-size: 1.4rem;
+}
+
+#habilidadesContenido p {
+    font-size: 1rem;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* =========================
+   FLECHA DEL COLLAPSE
+========================= */
+
+.flecha-collapse {
+    color: #ffeb3b;
+    margin-left: 10px;
+    font-size: 1.8rem;
+    vertical-align: middle;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+#habilidadesTitulo[aria-expanded="true"] {
+    color: white;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .titulo-seccion {
+        font-size: 1.8rem;
+    }
+
+    #infoContacto {
+        width: 90%;
+    }
+
+    .proyecto-card {
+        padding: 20px;
+    }
+
+    .proyecto-card h4 {
+        font-size: 1.2rem;
+    }
+
+    #habilidadesContenido .proyecto-card {
+        min-height: auto;
+    }
+}
+.btn-outline-warning {
+    color: #ffeb3b;
+    border: 2px solid #ffeb3b;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-outline-warning:hover {
+    background: #ffeb3b;
+    color: #000;
+}
+.btn-acerca-proyecto {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #ffeb3b !important;
+    border: 2px solid #ffeb3b;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-acerca-proyecto:hover {
+    background-color: #ffeb3b;
+    color: #000 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(255, 235, 59, 0.4);
+}
+
+.btn-acerca-proyecto i {
+    margin-right: 8px;
+}

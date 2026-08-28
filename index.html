@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+
+  <!-- Tabler Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand text-dark" href="#">Mis Enlaces</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/isaac-escobar-255a89240" target="_blank">LinkedIn</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://github.com/isak-es?tab=repositories" target="_blank">GitHub</a></li>
+          <li class="nav-item"><a class="nav-link" href="./credenciales.html" target="_blank">Credenciales</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Sobre mí -->
+  <div class="container mt-5 text-center">
+    <h1 class="mb-4">Isaac Escobar Silva</h1>
+    <p id="sobreMi" class="fw-bold">Sobre mí</p>
+    <p id="infoExtra" class="d-none">
+      Técnico en Redes, con experiencia en soporte técnico y sólidos conocimientos en administración de servidores Windows y Linux. Complemento mi formación con estudios en programación, bases de datos y ciberseguridad. Destaco por mi interés en el aprendizaje continuo, la resolución de problemas y la mejora constante de procesos, con especial interés en la seguridad de redes y la protección de infraestructuras tecnológicas.
+    </p>
+  </div>
+
+
+<!-- HABILIDADES TECNICAS -->
+<div id="habilidadesWrapper" class="container mt-5">
+
+    <h2
+        id="habilidadesTitulo"
+        class="titulo-seccion text-center"
+        data-bs-toggle="collapse"
+        data-bs-target="#habilidadesContenido"
+        aria-expanded="false"
+        aria-controls="habilidadesContenido">
+
+        Habilidades Técnicas
+
+        <i class="ti ti-chevron-down flecha-collapse"></i>
+
+    </h2>
+
+    <div class="collapse mt-4" id="habilidadesContenido">
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-6 mb-4">
+                <div class="proyecto-card">
+                    <h4>
+                        <i class="ti ti-network"></i>
+                        Redes
+                    </h4>
+
+                    <p>
+                        TCP/IP, DNS, DHCP, Switching y Routing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="proyecto-card">
+                    <h4>
+                        <i class="ti ti-server"></i>
+                        Sistemas Operativos
+                    </h4>
+
+                    <p>
+                        Linux, Windows Server y Administración básica de servidores.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="proyecto-card">
+                    <h4>
+                        <i class="ti ti-shield-lock"></i>
+                        Ciberseguridad
+                    </h4>
+
+                    <p>
+                        Nmap, Wireshark, OWASP Top 10 y Análisis de vulnerabilidades.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="proyecto-card">
+                    <h4>
+                        <i class="ti ti-code"></i>
+                        Desarrollo y Versionado
+                    </h4>
+
+                    <p>
+                        Git, GitHub y SQL.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+  <!-- PORTAFOLIO -->
+  <div id="portafolioWrapper" class="container text-center mt-5">
+    <h2 id="portafolioTitulo" class="titulo-seccion mb-4">Últimos proyectos</h2>
+
+    <div id="portafolioLinks" class="row d-none">
+      <div class="col-md-4 mb-4">
+        <div class="proyecto-card">
+          <a href="./proyectos/proyectoFinal.pdf" target="_blank">
+            <i class="ti ti-file-text"></i> Desafío Hacking Ético
+          </a>
+          <p>Proyecto orientado a la práctica de técnicas de hacking ético y seguridad ofensiva.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="proyecto-card">
+          <a href="./proyectos/InGen (1).pdf" target="_blank">
+            <i class="ti ti-file-text"></i> Fundamentos de sistema operativo Linux
+          </a>
+          <p>Trabajo sobre administración básica de Linux y comandos esenciales para la gestión de servidores.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="proyecto-card">
+          <a href="./proyectos/modulo8ProyectoFinal (1).pdf" target="_blank">
+            <i class="ti ti-file-text"></i> Fundamentos de seguridad en redes
+          </a>
+          <p>Proyecto enfocado en la implementación de medidas de seguridad y análisis de vulnerabilidades en redes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<div id="casoWrapper" class="container text-center mt-5">
+
+    <h2 id="casoTitulo" class="titulo-seccion mb-4">
+        Caso de Estudio
+    </h2>
+
+    <div id="casoContenido" class="row justify-content-center d-none">
+
+        <div class="col-md-8">
+
+            <div class="proyecto-card">
+
+                    <i class="ti ti-cloud-computing"></i>
+                    Arquitectura Cloud para Escuela Técnica Digital
+                </a>
+
+                <p>
+                    Diseño de una solución educativa basada en nube pública,
+                    integrando AWS, almacenamiento cloud, redes virtuales,
+                    bases de datos, CDN y escalabilidad automática.
+                </p>
+                  <a href="./proyectos/Proyecto Modulo 5.pdf" target="_blank">
+                    <i class="ti ti-file-text"></i> Integracion de servicios con Cloud
+                  </a>
+                  <br>
+                  <a href="sobreElProyecto.html" class="btn-acerca-proyecto">
+                      <i class="ti ti-book"></i>
+                       Acerca del Proyecto
+                  </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+  <!-- CONTACTO -->
+  <footer class="text-center mt-5">
+    <div id="contactoWrapper" class="text-center mt-5">
+      <p id="contacto" class="fw-bold">Contacto</p>
+      <div id="infoContacto" class="d-none">
+        <a href="https://wa.me/56961337385" target="_blank" class="telefono">
+          <i class="ti ti-brand-whatsapp"></i> +56961337385
+        </a>
+        <a href="mailto:isak.esm2@gmail.com" class="correo">
+          <i class="ti ti-mail"></i> isak.esm2@gmail.com
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Script propio -->
+  <script src="./JS/script.js"></script>
+</body>
+</html>
+
+
+
