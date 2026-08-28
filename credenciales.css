@@ -1,0 +1,31 @@
+body{
+    background:#5ad135;
+}
+
+.titulo{
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:40px;
+    font-weight:bold;
+}
+
+.carousel-item{
+    text-align:center;
+    padding:30px;
+}
+
+.cert-card{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+
+.cert-card img{
+    width:180px;
+    height:180px;
+    object-fit:contain;
+    margin-bottom:20px;
+}
